@@ -1,3 +1,6 @@
+server:
+  port: 8080
+
 spring:
   application:
     name: greetings-service
@@ -5,3 +8,9 @@ spring:
 greetings-service:
   greeting: "Olá"
   default-value: "QA"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
