@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: greetings-service
+
+greetings-service:
+  greeting: "Olá"
+  default-value: "Dev"
